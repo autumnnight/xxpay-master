@@ -43,9 +43,9 @@ public class GoodsOrderController {
     // 验签key
     static final String resKey = "Hpcl522AV6q613KIi46u6g6XuW8vM1N8bFgyv769770MdYe9u37M4y7rIpl8";
     //static final String baseUrl = "http://api.xxpay.org/api";
-    static final String baseUrl = "http://127.0.0.1:3020/api";
+    static final String baseUrl = "http://47.94.103.129:3020/api";
     //static final String notifyUrl = "http://shop.xxpay.org/goods/payNotify";
-    static final String notifyUrl = "http://127.0.0.1:8081/goods/payNotify";
+    static final String notifyUrl = "http://47.94.103.129:8081/goods/payNotify";
     private AtomicLong seq = new AtomicLong(0L);
     private final static String QR_PAY_URL = "http://shop.xxpay.org/goods/qrPay.html";
     static final String AppID = "wx077cb62e341f8a5c";

@@ -38,7 +38,7 @@ public class PayOrderTest {
 //				.andExpect(jsonPath("id.value").value("6305ff33-295e-11e5-ae37-54ee7534021a"))
 //				.andExpect(jsonPath("code").value("EXW"));
 
-		//params={mchId:20001222,mchOrderNo:3132121212,channelId:"alipay-app",amount:100,currentcy:"cny",clientIp:"127.0.0.1",device:"app",notifyUrl:"www.baidu.com",sign:1111111}
+		//params={mchId:20001222,mchOrderNo:3132121212,channelId:"alipay-app",amount:100,currentcy:"cny",clientIp:"47.94.103.129",device:"app",notifyUrl:"www.baidu.com",sign:1111111}
 
 		JSONObject params = new JSONObject();
 		params.put("mchId", "20001222");
