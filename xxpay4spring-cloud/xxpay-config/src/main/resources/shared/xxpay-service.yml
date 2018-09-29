@@ -26,7 +26,7 @@ spring:
      active: prod
 
   activemq:
-    broker-url: failover:(tcp://101.200.130.72:61616?wireFormat.maxInactivityDuration=0)
+    broker-url: failover:(tcp://47.94.103.129:61616?wireFormat.maxInactivityDuration=0)
     in-memory: true
     pool:
       enabled: true # 如果此处设置为true，需要加activemq-pool依赖包，否则会自动配置失败，报JmsMessagingTemplate注入失败
