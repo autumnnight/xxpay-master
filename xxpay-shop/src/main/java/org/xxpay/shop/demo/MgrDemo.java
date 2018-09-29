@@ -10,7 +10,7 @@ public class MgrDemo {
 
     // 商户ID
 
-    static final String baseUrl = "http://localhost:3000";
+    static final String baseUrl = "http://47.94.103.129:3000";
 
     public static void main(String[] args) {
         //addMchInfo();

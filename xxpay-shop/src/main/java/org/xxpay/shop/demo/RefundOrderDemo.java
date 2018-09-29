@@ -20,7 +20,7 @@ public class RefundOrderDemo {
     static final String repKey = "Hpcl522AV6q613KIi46u6g6XuW8vM1N8bFgyv769770MdYe9u37M4y7rIpl8";
 
     //static final String baseUrl = "http://api.xxpay.org/api";
-    static final String baseUrl = "http://localhost:3020/api";
+    static final String baseUrl = "http://47.94.103.129:3020/api";
     static final String notifyUrl = "http://127.0.0.1:8081/goods/notify_test?rt=success"; // 本地环境测试,可到ngrok.cc网站注册
 
     public static void main(String[] args) {

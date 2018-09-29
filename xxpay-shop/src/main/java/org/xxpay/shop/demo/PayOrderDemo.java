@@ -20,7 +20,7 @@ public class PayOrderDemo {
     static final String repKey = "Hpcl522AV6q613KIi46u6g6XuW8vM1N8bFgyv769770MdYe9u37M4y7rIpl8";
 
     //static final String baseUrl = "http://api.xxpay.org/api";
-    static final String baseUrl = "http://localhost:3020/api";
+    static final String baseUrl = "http://47.94.103.129:3020/api";
     //static final String notifyUrl = "http://www.baidu.com"; // 本地环境测试,可到ngrok.cc网站注册
     static final String notifyUrl = "http://shop.xxpay.org/goods/payNotify";
 
